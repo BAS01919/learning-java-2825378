@@ -8,7 +8,7 @@ public class Main {
         while(isOnRepeat) {
             System.out.println("Playing current song");
             System.out.println("Would you like to take this song off of repeat? If so, answer yes");
-            String userInput = input.next();
+            String userInput = input.next();                                                         // the name of the variable of type scanner from above   .next()
 
             if(userInput.equals("yes")) {
                 isOnRepeat = false;
