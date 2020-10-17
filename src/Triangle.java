@@ -1,4 +1,5 @@
 public class Triangle {
+    // Class Attributes
     double base;
     double height;
     double sideLenOne;
